@@ -1,0 +1,29 @@
+/*
+  1. Quitar los estilos por defecto
+  2. Dar un ancho y un alto a los elementos
+  3. Dar margenes a elemento1 y elemento2
+  4. Mostrar colapso de margenes
+  5. Margenes negativos
+  6. Padding
+  7. Border
+  8. Box-sizing
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.elemento1{
+  background: teal;
+  color: white;
+  width: 500px;
+  height: 200px;
+}
+
+.elemento2{
+  background: steelblue;
+  color: white;
+  width: 300px;
+  height: 150px;
+}
