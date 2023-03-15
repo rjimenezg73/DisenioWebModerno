@@ -6,10 +6,12 @@
 }
 
 .en-linea{
-  display: block;
-  width: 500px;
-  height: 150px;
+  /*display: block;*/
+  display: inline-block; /* Es una combinación de ambos elementos, block y en linea*/
+  width: 350px;
+  height: 50px;
   border: 5px solid #000;
+  text-align: center;
 }
 
 .bloque{
@@ -26,6 +28,6 @@
   block
   inline-block
   */
-  margin: 40px;
+  margin: 20px;
   background: orange;
 }
