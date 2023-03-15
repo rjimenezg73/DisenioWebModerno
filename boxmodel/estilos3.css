@@ -8,11 +8,23 @@
 h2{
   color: teal;
   background: plum;
+  text-align: center;
 }
 
+/* Styling the class "sobre-mi" */
 .sobre-mi{
   background: tomato;
   color: white;
   padding: 20px 0;
   text-align: right;
 }
+
+/*
+  La espicificidad se da de acuerdo a los selectores, es decir, hay selectores que valen más o tienen más prioridad que otros selectores....
+
+  h2 Selector Specificity (0,0,1) Selector de etiqueta
+  .sobre-mi Specificity (0, 1, 0) Selector de clase
+  #elh2 Specificity (1, 0, 0) Selector de indice
+
+  La especificidad rompe la cascada
+*/
