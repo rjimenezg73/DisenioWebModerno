@@ -1,0 +1,23 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: white;
+  text-align: center;
+  font-family: Arial;
+}
+
+.section{
+  padding: 40px 0;
+  background: hotpink;
+  font-size: 10px;
+}
+
+p{
+  /*text-align: right;*/
+  font-size: 45px;
+}
