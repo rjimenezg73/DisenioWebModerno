@@ -4,10 +4,14 @@
   box-sizing: border-box;
 }
 
-div{
+img{
+  display: block;
   background: steelblue;
-  width: 300px;
-  height: 450px;
-  margin: 20px;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  object-fit: cover;
   color: white;
+  /*border-style: ;*/
+  box-shadow: 10px 10px 12px rgb(37, 36, 36);
 }
