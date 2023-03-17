@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Arial';
+}
+
+.card{
+  background: steelblue;
+  width: 400px;
+  height: 450px;
+  color: white;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: justify;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
 img{
   display: block;
   background: steelblue;
@@ -12,6 +27,16 @@ img{
   margin: 20px auto;
   object-fit: cover;
   color: white;
+  border-radius: 50%;
   /*border-style: ;*/
   box-shadow: 10px 10px 12px rgb(37, 36, 36);
+}
+
+.titulo{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.parrafo{
+  font-style: italic;
 }
