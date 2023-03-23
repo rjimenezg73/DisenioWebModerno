@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 12px;
+}
+
+body{
+  font-size: 18px;
+}
+
+section{
+  /*width: 200px;
+  height: 200px;*/
+  /*min-width: 300px;
+  min-height: 300px;
+  width: 100px; //Lo establece a 300 px por el min-width
+  height: 400px;*/
+  
+  /*width: 90%;
+  height: 200px; //El height no se puede usar el 100% si no hay un ancestro fijo.*/
+
+  /*// view port width y view port height
+  // para visualizar todo lo que hay en la pantalla sin importar el dispositivo
+  // view port width --- vw
+  // view port height --- vh
+  width: 100vw;
+  /*height: 300px; 
+  height: 100vh;
+  */
+
+  /* El em depende de su padre y el rem depende del root o del html*/
+
+  /* width: 10em; */
+  width: 10rem;
+  height: 50vh;
+
+  background: steelblue;
+}
