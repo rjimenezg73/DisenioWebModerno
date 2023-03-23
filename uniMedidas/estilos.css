@@ -5,7 +5,11 @@
 }
 
 section{
-  width: 200px;
-  height: 200px;
+  /*width: 200px;
+  height: 200px;*/
+  min-width: 300px;
+  min-height: 300px;
+  width: 100px; //Lo establece a 300 px por el min-width
+  height: 400px;
   background: steelblue;
 }
