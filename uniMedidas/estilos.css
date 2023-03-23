@@ -7,9 +7,11 @@
 section{
   /*width: 200px;
   height: 200px;*/
-  min-width: 300px;
+  /*min-width: 300px;
   min-height: 300px;
   width: 100px; //Lo establece a 300 px por el min-width
-  height: 400px;
+  height: 400px;*/
+  width: 90%;
+  height: 200px; //El height no se puede usar el 100% si no hay un ancestro fijo.
   background: steelblue;
 }
