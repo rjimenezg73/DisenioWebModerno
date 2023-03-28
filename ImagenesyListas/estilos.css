@@ -1,5 +1,19 @@
 *{
   margin: 0;
-  padding: 0;
+  /*padding: 0;*/
   box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
+
+ol{
+  /*list-style: disc;*/
+  /*list-style: circle;*/
+  /*list-style: decimal;*/
+  /*list-style: upper-alpha;*/
+  /*list-style: lower-alpha;*/
+  /*list-style: upper-roman;*/
+  list-style-image: url("./images/bx-rss.png");
 }
