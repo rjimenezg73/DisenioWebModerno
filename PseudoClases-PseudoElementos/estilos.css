@@ -26,3 +26,7 @@ body{
 .enlace:active{
   background: darkblue;
 }
+
+#numero1:target{
+  background: red;
+}
