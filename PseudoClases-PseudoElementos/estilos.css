@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Arial";
+}
+
+.enlace{
+  background: steelblue;
+  color: #fff;
+  display: block;
+  margin: 20px auto;
+  padding: 20px auto;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.enlace:hover{
+  background: red;
+}
+
+.enlace:active{
+  background: darkblue;
+}
